@@ -1,0 +1,31 @@
+.container{
+    margin: 20px;
+}
+.todo-table{
+    width: 60%;
+    border-collapse: collapse;
+
+    th{
+        background: antiquewhite;
+        padding: 16px 10px !important;
+    }
+
+    th, td{
+        text-align: left;
+        padding: 0 10px;
+        border: 1px solid lightgray;
+    }
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-btn{
+    background: antiquewhite;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
